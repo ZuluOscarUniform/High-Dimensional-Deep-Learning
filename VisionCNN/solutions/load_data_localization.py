@@ -50,7 +50,7 @@ def load_data_localization(image_size):
                         area = float(labels[j].split()[3]) * float(labels[j].split()[4])
                         # Update the maximum area bounding box, if necessary
                         if area > area_max:
-                            area_max = aire
+                            area_max = area
                             j_max = j    
 
                 # An object is present on the image (presence = 1)
